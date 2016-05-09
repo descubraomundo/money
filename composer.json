@@ -1,8 +1,8 @@
 {
-    "name": "sebastian/money",
+    "name": "descubraomundo/money",
     "description": "Value Object that represents a monetary value (using a currency's smallest unit)",
     "keywords": ["money"],
-    "homepage": "http://www.github.com/sebastianbergmann/money",
+    "homepage": "http://www.github.com/descubraomundo/money",
     "license": "BSD-3-Clause",
     "authors": [
         {
