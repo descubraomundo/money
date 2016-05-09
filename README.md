@@ -1,6 +1,7 @@
 # Money
 
 [Value Object](http://martinfowler.com/bliki/ValueObject.html) that represents a [monetary value using a currency's smallest unit](http://martinfowler.com/eaaCatalog/money.html).
+
 This is a fork from [sebastianbergmann/money](https://github.com/sebastianbergmann/money) and we have implemented our packagist because the original project has been [abandoned](https://github.com/sebastianbergmann/money/pull/79).
 
 ## Installation
