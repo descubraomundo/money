@@ -10,7 +10,9 @@
 
 namespace SebastianBergmann\Money;
 
-class CurrencyTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class CurrencyTest extends TestCase
 {
     /**
      * @covers            \SebastianBergmann\Money\Currency::__construct
@@ -67,7 +69,7 @@ class CurrencyTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers \SebastianBergmann\Money\Currency::getCurrencies
      */
-    public function testRegisterdCurrenciesCanBeAccessed()
+    public function testRegisteredCurrenciesCanBeAccessed()
     {
         $currencies = Currency::getCurrencies();
 
